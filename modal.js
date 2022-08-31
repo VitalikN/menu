@@ -1,5 +1,5 @@
 (() => {
-  const list = document.querySelectorAll(".list");
+  const list = document.querySelectorAll(".item-list");
   function activoClass() {
     list.forEach((item) => item.classList.remove("active"));
     this.classList.add("active");
