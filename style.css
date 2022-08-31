@@ -70,12 +70,11 @@ body {
   letter-spacing: 0.05em;
   transform: translateY(10px);
   opacity: 0;
-  transition:  500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .active .title {
   opacity: 1;
-  
 }
 
 .indicator {
@@ -128,7 +127,4 @@ body {
 }
 .navigation .item-list:nth-child(5).active ~ .indicator {
   transform: translateX(calc(70px * 4));
-}
-.navigation .item-list:nth-child(1).active ~ .indicator {
-  transform: translateX(calc(70px * 0));
 }
